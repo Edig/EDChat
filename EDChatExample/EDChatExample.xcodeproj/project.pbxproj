@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A013BCA21CE98149001F5AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A013BCA11CE98149001F5AA3 /* AppDelegate.swift */; };
+		A013BCA71CE98149001F5AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A013BCA51CE98149001F5AA3 /* Main.storyboard */; };
+		A013BCA91CE98149001F5AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A013BCA81CE98149001F5AA3 /* Assets.xcassets */; };
+		A013BCAC1CE98149001F5AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A013BCAA1CE98149001F5AA3 /* LaunchScreen.storyboard */; };
+		A013BCB91CE98DFD001F5AA3 /* DynamicTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A013BCB41CE98DFD001F5AA3 /* DynamicTextView.swift */; };
+		A013BCBA1CE98DFD001F5AA3 /* EDChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A013BCB51CE98DFD001F5AA3 /* EDChat.swift */; };
+		A013BCBB1CE98DFD001F5AA3 /* EDChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A013BCB61CE98DFD001F5AA3 /* EDChatMessage.swift */; };
+		A013BCBC1CE98DFD001F5AA3 /* EDChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A013BCB71CE98DFD001F5AA3 /* EDChatMessageView.swift */; };
+		A013BCBD1CE98DFD001F5AA3 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A013BCB81CE98DFD001F5AA3 /* UITableView+Extension.swift */; };
+		A09AFA151CE98EBB00F58A9A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AFA141CE98EBB00F58A9A /* TableViewController.swift */; };
+		A09AFA171CE98F0600F58A9A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AFA161CE98F0600F58A9A /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A013BC9E1CE98149001F5AA3 /* EDChatExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDChatExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A013BCA11CE98149001F5AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A013BCA61CE98149001F5AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A013BCA81CE98149001F5AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A013BCAB1CE98149001F5AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A013BCAD1CE98149001F5AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A013BCB41CE98DFD001F5AA3 /* DynamicTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTextView.swift; sourceTree = "<group>"; };
+		A013BCB51CE98DFD001F5AA3 /* EDChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDChat.swift; sourceTree = "<group>"; };
+		A013BCB61CE98DFD001F5AA3 /* EDChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDChatMessage.swift; sourceTree = "<group>"; };
+		A013BCB71CE98DFD001F5AA3 /* EDChatMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EDChatMessageView.swift; sourceTree = "<group>"; };
+		A013BCB81CE98DFD001F5AA3 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		A09AFA141CE98EBB00F58A9A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A09AFA161CE98F0600F58A9A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A013BC9B1CE98149001F5AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A013BC951CE98149001F5AA3 = {
+			isa = PBXGroup;
+			children = (
+				A013BCA01CE98149001F5AA3 /* EDChatExample */,
+				A013BC9F1CE98149001F5AA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A013BC9F1CE98149001F5AA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A013BC9E1CE98149001F5AA3 /* EDChatExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A013BCA01CE98149001F5AA3 /* EDChatExample */ = {
+			isa = PBXGroup;
+			children = (
+				A013BCA11CE98149001F5AA3 /* AppDelegate.swift */,
+				A09AFA141CE98EBB00F58A9A /* TableViewController.swift */,
+				A09AFA161CE98F0600F58A9A /* ChatViewController.swift */,
+				A013BCA51CE98149001F5AA3 /* Main.storyboard */,
+				A013BCA81CE98149001F5AA3 /* Assets.xcassets */,
+				A013BCAA1CE98149001F5AA3 /* LaunchScreen.storyboard */,
+				A013BCAD1CE98149001F5AA3 /* Info.plist */,
+				A013BCB31CE98DFD001F5AA3 /* EdChat */,
+			);
+			path = EDChatExample;
+			sourceTree = "<group>";
+		};
+		A013BCB31CE98DFD001F5AA3 /* EdChat */ = {
+			isa = PBXGroup;
+			children = (
+				A013BCB51CE98DFD001F5AA3 /* EDChat.swift */,
+				A013BCB41CE98DFD001F5AA3 /* DynamicTextView.swift */,
+				A013BCB61CE98DFD001F5AA3 /* EDChatMessage.swift */,
+				A013BCB71CE98DFD001F5AA3 /* EDChatMessageView.swift */,
+				A013BCB81CE98DFD001F5AA3 /* UITableView+Extension.swift */,
+			);
+			name = EdChat;
+			path = ../../EdChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A013BC9D1CE98149001F5AA3 /* EDChatExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A013BCB01CE98149001F5AA3 /* Build configuration list for PBXNativeTarget "EDChatExample" */;
+			buildPhases = (
+				A013BC9A1CE98149001F5AA3 /* Sources */,
+				A013BC9B1CE98149001F5AA3 /* Frameworks */,
+				A013BC9C1CE98149001F5AA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EDChatExample;
+			productName = EDChatExample;
+			productReference = A013BC9E1CE98149001F5AA3 /* EDChatExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A013BC961CE98149001F5AA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eduardo Iglesias";
+				TargetAttributes = {
+					A013BC9D1CE98149001F5AA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A013BC991CE98149001F5AA3 /* Build configuration list for PBXProject "EDChatExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A013BC951CE98149001F5AA3;
+			productRefGroup = A013BC9F1CE98149001F5AA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A013BC9D1CE98149001F5AA3 /* EDChatExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A013BC9C1CE98149001F5AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A013BCAC1CE98149001F5AA3 /* LaunchScreen.storyboard in Resources */,
+				A013BCA91CE98149001F5AA3 /* Assets.xcassets in Resources */,
+				A013BCA71CE98149001F5AA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A013BC9A1CE98149001F5AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A013BCBA1CE98DFD001F5AA3 /* EDChat.swift in Sources */,
+				A09AFA151CE98EBB00F58A9A /* TableViewController.swift in Sources */,
+				A09AFA171CE98F0600F58A9A /* ChatViewController.swift in Sources */,
+				A013BCBD1CE98DFD001F5AA3 /* UITableView+Extension.swift in Sources */,
+				A013BCA21CE98149001F5AA3 /* AppDelegate.swift in Sources */,
+				A013BCB91CE98DFD001F5AA3 /* DynamicTextView.swift in Sources */,
+				A013BCBB1CE98DFD001F5AA3 /* EDChatMessage.swift in Sources */,
+				A013BCBC1CE98DFD001F5AA3 /* EDChatMessageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A013BCA51CE98149001F5AA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A013BCA61CE98149001F5AA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A013BCAA1CE98149001F5AA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A013BCAB1CE98149001F5AA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A013BCAE1CE98149001F5AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A013BCAF1CE98149001F5AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A013BCB11CE98149001F5AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EDChatExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduardo-Iglesias.EDChatExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A013BCB21CE98149001F5AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EDChatExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduardo-Iglesias.EDChatExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A013BC991CE98149001F5AA3 /* Build configuration list for PBXProject "EDChatExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A013BCAE1CE98149001F5AA3 /* Debug */,
+				A013BCAF1CE98149001F5AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A013BCB01CE98149001F5AA3 /* Build configuration list for PBXNativeTarget "EDChatExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A013BCB11CE98149001F5AA3 /* Debug */,
+				A013BCB21CE98149001F5AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A013BC961CE98149001F5AA3 /* Project object */;
+}
