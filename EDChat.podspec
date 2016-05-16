@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "eduardo" => "edig50@gmail.com" }
+  s.author             = { "Eduardo Iglesias" => "edig50@gmail.com" }
   # Or just: s.author    = "eduardo"
   # s.authors            = { "eduardo" => "edig50@gmail.com" }
   # s.social_media_url   = "http://twitter.com/edig50"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Edig/EDChat", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/Edig/EDChat.git", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
