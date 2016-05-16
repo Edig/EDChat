@@ -89,15 +89,15 @@ override func viewFromMessage(message: EDChatMessage) -> UIView
 #### *Default Bubble*
 To customize the default bubble you need to create an object ```EDChatView``` and this will care about the text based on the message you create
 ```swift
-    func viewFromMessage(message: EDChatMessage) -> UIView {
-        return EDChatMessageView(message: message, withFont: self.defaultFont)
-    }
+func viewFromMessage(message: EDChatMessage) -> UIView {
+    return EDChatMessageView(message: message, withFont: self.defaultFont)
+}
 ```
 
 Posible configurations
 ```swift
-var sendingMessageBackrgound = UIColor(rgba: "#FF5F60")
-var incomingMessageBackrgound = UIColor(rgba: "#6F6F94")
+var sendingMessageBackrgound = UIColor.blueColor()
+var incomingMessageBackrgound = UIColor.grayColor()
 var sendingMessageTextColor = UIColor.whiteColor()
 var incomingMessageTextColor = UIColor.whiteColor()
 ```
