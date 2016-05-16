@@ -16,7 +16,7 @@ pod "EDChat"
 Import the framework
 
 ```swift
-import JLChatViewController
+import EDChat
 ```
 
 ##### *Second Step*
