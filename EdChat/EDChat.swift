@@ -41,7 +41,7 @@ class EDChatViewController: UIViewController, UITableViewDataSource, UITableView
     var canSendEmptyMessages: Bool = false
     
     //TextBar
-    var textBarBackground = UIColor(rgba: "#333341")
+    var textBarBackground = UIColor.grayColor()
     var textBarHeight:CGFloat = 50
     
     //TextField

@@ -14,8 +14,8 @@ class EDChatMessageView: UIView {
     
     //Configuration
     var font: UIFont!
-    var sendingMessageBackrgound = UIColor(rgba: "#FF5F60")
-    var incomingMessageBackrgound = UIColor(rgba: "#6F6F94")
+    var sendingMessageBackrgound = UIColor.blueColor()
+    var incomingMessageBackrgound = UIColor.grayColor()
     var sendingMessageTextColor = UIColor.whiteColor()
     var incomingMessageTextColor = UIColor.whiteColor()
     
